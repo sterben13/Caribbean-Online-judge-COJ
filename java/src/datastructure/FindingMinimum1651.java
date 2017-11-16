@@ -1,3 +1,28 @@
+/**
+* Judge Online: Caribbean Online Judge.
+* URL: http://coj.uci.cu/24h/problem.xhtml?pid=1651
+* Problem: 
+* Descripción
+* 
+* You are given a list of (1 <= N <= 10^4) integer numbers between 1 and 10^3, and 
+* you must find as fast as you can the minimum number between any range [A,B] with 
+* (1 <= A,B <= N). Remember, the time is important here. Perhaps this software, is 
+* an vital part of an powerfull invention.
+*
+* Especificación de entrada.
+*
+* The first line, the number N. 
+* On the second line there are N integer numbers Ni (they are space-separated).
+* The third line, one integer number Q: the number of queries to be made.
+* On the following Q lines, there are two integer numbers A and B. 
+* The number of queries Q will be at most 500000.
+* Especificación de salida.
+*
+* Q lines, with one number per line (the answer for each query).
+* Solution: se utilizo arboles de segmentos configurado para obtener el minimo de 
+* entre un rango dado del arreglo.
+**/
+
 package datastructure;
 
 import java.io.BufferedReader;
